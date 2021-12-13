@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(h16.png);
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.loginpage{
+    height: 420px;
+    width: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    background: transparent;
+    color: white;
+    padding: 70px 30px;
+    border-radius: 20px;
+    border-radius: 10px;
+}
+.loginpage p{
+    margin: 0%;
+    padding: 0%;
+    font-weight:bold;
+}
+
+.loginpage input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginpage input[type=text],input[type=password]{
+border: none;
+border-bottom:1px solid #fff;
+background: transparent;
+outline: none;
+color: gainsboro;
+font-size: 16px;
+height: 40px;
+}
+
+.loginpage input[type=submit]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #ffc003;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginpage input[type=submit]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: black;
+}
+.loginpage a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 30px;
+    color: darkgray;
+}
+.loginpage a:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: black;
+}
